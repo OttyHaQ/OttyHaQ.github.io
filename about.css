@@ -1,4 +1,6 @@
 *{
+    font-family: 'Lato', sans serif;
+    font-style: normal;
     padding:0;
     margin :0;
     box-sizing: border-box;
@@ -204,11 +206,6 @@ nav li {
 	margin: 0 15px;
 	padding: 5px;
 	font-weight: bold;
-}
-
-* {
-    font-family: Lato;
-    font-style: normal;
 }
 
 footer {
