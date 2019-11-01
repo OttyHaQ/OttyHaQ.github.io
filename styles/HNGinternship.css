@@ -1,0 +1,317 @@
+  
+@media screen and (min-width: 0) {
+
+*{
+    padding:0;
+    margin :0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    width: 100%;
+    height:100vh;
+    font-family: "Open Sans", segoe UI, sans-serif;
+    scroll-behavior: smooth
+}
+
+.top{
+    background-color: #D1F0F6;
+}
+
+.middle{
+    background-color: rgba(196, 196, 196, 0.1);
+}
+
+.middle .header .midheader{
+    padding-top: 70px;
+}
+
+.middle .container-box2 .content-box{
+    padding-bottom: 70px;
+}
+
+#logo {
+	max-width: 100%;
+    height: auto;
+    width: 250px;
+}
+
+.menu_bar {
+    display: none;
+    text-align: right;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.nav-link {
+    color: #474747;
+    font-size: 16px;
+    line-height: 22px;
+    width: 100%;
+    font-weight: bold;
+    text-align: right;
+}
+.btn btn-primary {
+    background: #00AEFF;
+    border-radius: 4px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 150px;
+    margin-right: 16px;
+}
+
+.container-box{
+    margin-top: 120px;
+    width: auto;
+}
+
+.content-box{
+    margin: 0;
+    position: relative;
+    float: left;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.content{
+    text-align: start;
+    padding-top: 120px;
+}
+
+.container-box1{
+    margin-top: 100px;
+    align-content: center;
+    display: inline-block;
+    width: auto;
+    box-sizing: border-box;
+}
+
+.container-box2{
+    margin-top: 80px;
+    width: auto;
+}
+
+.container-box2 .content-box .content a img{
+    height: 40px;
+}
+.container-box3{
+    margin-top: 80px;
+    width: auto;
+}
+
+.content-box2{
+    margin: 0;
+    position: relative;
+    float: left;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.icon-box{
+    align-items: center;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.icon-box h6{
+    margin-top: 20px;
+}
+.project-box{
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    box-sizing: border-box;
+}
+
+.header{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.header a{
+    margin-top: 50px;
+}
+
+.header h3{
+    color: #275B92;
+}
+
+.middle .header .midheader{
+    margin-top: 50px;
+}
+.content h3{
+    color: #275B92;
+}
+
+.project-box h6{
+    color: #275B92;
+    margin-top: 20px;
+}
+.project-box .pbox{
+    margin-top: 35px;
+}
+ footer{
+    margin-top: 100px;
+    padding-top: 100px;
+    border-top: 1px solid #C4C4C4;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+ }
+
+ #footer-logo{
+    max-width: 100%;
+    height: auto;
+    width: 250px;
+ }
+
+ .footer-nav {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+#footer .footheader{
+    color: #275B92;
+}
+
+#footer .contact{
+    color: #00AEFF;
+}
+
+.footer-nav #link-list a {
+    font-family: "Open Sans", segoe UI, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+    color: #333;
+    display: block;
+    text-decoration: none;
+}
+
+#footer .footer-section a {
+    font-family: "Open Sans", segoe UI, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;        
+    color: #737373;
+    text-decoration: none;
+}
+
+#footer  #socials img {
+    width: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.copyright {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: center;
+    color: #fff;
+    background-color: #8898AA;
+}
+}
+
+@media screen and (min-width:940px){
+.container-fluid{
+    padding: 0 40px;
+}
+#header {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+.nav_button {
+    display: none;
+}
+
+.menu_bar {
+    display: block;
+    width: auto;
+    float: none;
+    text-align: right;
+}
+
+.menu_bar .nav-link {
+    display: inline;
+    min-width: 150px;
+}
+
+.menu_bar .float_right{
+    float: none;
+}
+
+}
+
+@media screen and (max-width: 500px){
+.container{
+    display: block;
+}
+.container-box{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.content{
+    text-align: center;
+}
+
+.midheader{
+    margin: 0px;
+    padding: 0px;
+}
+
+    #footer {
+    padding: 50px 20px;
+}
+
+.content-box{
+    margin: 20px;
+    padding:20px;
+    float:none;
+    text-align:center;
+    display:block;
+    }
+    
+.content-box img{
+    width: 80%;
+    height: auto;
+}
+
+#playstore{
+    width: auto;
+}
+
+.icon-box{
+    margin: 20px;
+    padding:20px;
+    float:none;
+    text-align:center;
+    display:block;
+    }
+
+.project-box{
+    margin: 20px;
+    padding:20px;
+    float:none;
+    text-align:center;
+    display:block;
+    }
+
+.project-box img{
+    width: auto;
+    height: auto;  
+}
+}
+}
